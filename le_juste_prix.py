@@ -1,3 +1,5 @@
+#Le juste prix 
+
 import random
 
 n = random.randint(0,100)
@@ -16,3 +18,4 @@ while True:
         commentaire = "bravo !"
         print(var, commentaire)
         break
+
