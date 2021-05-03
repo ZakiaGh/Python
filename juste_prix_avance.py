@@ -2,7 +2,7 @@
 
 from random import randint
 
-nbr_essais_max = 5
+nbr_essais_max = 6
 nbr_essais = 1
 borne_sup = 100
 mon_prix = randint(1,borne_sup)
@@ -23,5 +23,5 @@ while ton_prix != mon_prix and nbr_essais <= nbr_essais_max:
     nbr_essais += 1
     
 if nbr_essais>nbr_essais_max and ton_prix != mon_prix :
-    print("Désolé, vous avez utilisé vos",nbr_essais_max,"essais en vain.")    
+    print("Désolé, vous avez utilisé vos",nbr_essais_max,"essais.")    
     print("J'avais choisi le prix",mon_prix,".")
