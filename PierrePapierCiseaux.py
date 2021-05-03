@@ -12,7 +12,7 @@ while input("Jouez (y/n): ").lower() != "n":
     print("Le jeu du: Pierre - Feuille - Ciseaux")
     print("------------------------------------\n")
  
-    a = int(input("Choisissez une lettre :\n0: Pierre\n1: Feuille\n2: Ciseaux\n-> "))
+    a = int(input("Choisissez un chiffre :\n0: Pierre\n1: Feuille\n2: Ciseaux\n-> "))
     b = choice(range(3))
  
     print("\n{} VS {}".format(coup[a], coup[b]))
